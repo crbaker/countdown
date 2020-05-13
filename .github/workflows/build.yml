@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: WeThinkCode_ Send Twist Webooks
-      uses: crbaker/actions-twister@v1.5
+      uses: crbaker/actions-twister@v1.6
       with:
         install-id: 143902
         install-token: 143902_ef42b95d5d6a04c43c1b3bd045068567
