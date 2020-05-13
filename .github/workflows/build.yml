@@ -19,5 +19,5 @@ jobs:
         title: Some Title
         content: >
           I **hope** that _you_\
-          
-          like long line  \n* of text that spans many lines<br>this is a line\s\s\nDon't hate the haters
+
+          like long line  <br />* of text that spans many lines<br>this is a line\s\s\nDon't hate the haters
