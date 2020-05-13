@@ -20,5 +20,5 @@ jobs:
         content: >
           I **hope** that _you_ like long line\n
           * of text that spans many lines<br>
-          this is a line  
+          this is a line\s\s
           Don't hate the haters
