@@ -16,9 +16,8 @@ jobs:
       with:
         install-id: 143902
         install-token: 143902_ef42b95d5d6a04c43c1b3bd045068567
-        title: Some Title
+        title: Build Notification
         content: >
-          I **hope** that _you_\
-
-          like long line  <br />* of text that spans many lines<br>this is a line\
-          Don't hate the haters
+          **Actor**: ${github.actor}\
+          **Repo**: ${github.reposito}\
+          _${github.sha}_: ${github.ref}
