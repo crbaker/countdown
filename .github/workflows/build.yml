@@ -19,5 +19,7 @@ jobs:
         title: Build Notification
         content: >
           **Actor**: ${{github.actor}}\
+
           **Repo**: ${{github.repository}}\
+          
           _${{github.sha}}_: ${{github.ref}}
